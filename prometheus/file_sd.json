@@ -1,0 +1,11 @@
+[
+  {
+    "labels": {
+      "job": "cassandra",
+      "name": "cassandra"
+    },
+    "targets": [
+      "192.168.0.157:8080"
+    ]
+  }
+]
