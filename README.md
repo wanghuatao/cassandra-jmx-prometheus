@@ -10,7 +10,7 @@ sudo docker build -t yuzhonglele/cassandra:3.11 .
 docker run  --restart=always  --name cassandra -d \
  -p 9042:9042  -p 7000:7000 -p 7199:7199 -p  9160:9160 \
 -v /data/cadata:/var/lib/cassandra \
--e CASSANDRA_BROADCAST_ADDRESS=<your ip> \
+-e CASSANDRA_BROADCAST_ADDRESS=<**your ip**> \
 -e CASSANDRA_CLUSTER_NAME=mycluster  \
 -e LOCAL_JMX=no \
 -e JVM_EXTRA_OPTS=-Djava.rmi.server.hostname=127.0.0.1 \
